@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+
+    <form style="text-align: center; margin-top: 10px;" action="home.html" method="post">
+        <fieldset>
+
+            <legend>
+                <h2>Personal Information</h2>
+            </legend>
+            <label>Votre Nom</label>
+            <input type="text" placeholder="Name" name="firstName" value="Amar" required>
+            <br><br>
+            <label>Votre Pass</label>
+            <input type="password" placeholder="Password" name="Pass">
+            <br><br>
+            <label>E-mail</label>
+            <input type="email" placeholder="Your email" name="email">
+            <br><br>
+            <input type="submit" value="Done">
+
+
+            <br><br>
+
+            <legend>
+                <h3>General Imnformation</h3>
+            </legend>
+            football<input type="checkbox" name="n">
+            basketball<input type="checkbox" name="n1">
+            tenis<input type="checkbox" name="n1">
+            <br><br>
+            Male<input type="radio" name="n1">
+            Female<input type="radio" name="n1">
+            Other<input type="radio" name="n1">
+            <br><br>
+            <label>your favorite color</label>
+            <input type="color">
+            <br><br>
+            <input type="file" multiple>
+            <br><br>
+            add a number
+            <input type="number" step="10" min="0" max="100" maxlength="100">
+            <br><br>
+            <label>range</label>
+            <input type="range" step="20" min="0" max="100" maxlength="100">
+            <br><br>
+            <label>Month</label>
+            <input type="month">
+            <br><br>
+            <label>Date</label>
+            <input type="date">
+            <br><br>
+            <label>Week</label>
+            <input type="week">
+            <br><br>
+            <label>Time</label>
+            <input type="time">
+
+
+            <br><br>
+
+
+            <h3>add name</h3>
+
+            <select>
+                <optgroup label="Boys">
+                    <option value="Amar">Amar</option>
+                    <option value="Pepe">Pepe</option>
+                    <option value="Ahmed">Ahmed</option>
+                    <option value="Oussame" selected>Oussame</option>
+                </optgroup>
+                <optgroup label="Girls">
+                    <option value="Mariem">Mariem</option>
+                    <option value="Salma">Salma</option>
+                </optgroup>
+            </select>
+            <br><br>
+            <label>Players</label>
+            <input list="Players">
+            <datalist id="Players">
+                <option value="CR7"></option>
+                <option value="Messi"></option>
+                <option value="Neymar"></option>
+
+            </datalist>
+            <br><br>
+
+            <textarea cols="25" rows="4" placeholder="Enter your opinion">
+                </textarea>
+            <br><br>
+
+            <input type="submit" value="done">
+            <input type="submit" formmethod="GET" value="get" formtarget="_blank" formaction="home2.html">
+
+
+
+        </fieldset>
+
+
+
+        <br><br>
+        <input type="submit" value="Submit">
+
+        </fieldset>
+    </form>
+    <br><br><br><br>
+    <center><iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1038.502691592169!2d-15.957375991066074!3d18.052109873202486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xe9653d6c142191f%3A0x1e80025575d51b71!2z2KjZgtin2YTYqSDYrNmH2YrZhtip!5e0!3m2!1sar!2s!4v1645907046941!5m2!1sar!2s"
+            width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" s></iframe>
+    </center>
+
+    <br><br><br><br>
+
+    <center>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3qHkcs3kG44" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+    </center>
+
+    <br><br><br><br>
+    <center>
+        <h1>Embedding Pdfs</h1>
+    </center>
+    <center>
+        <h1>Description d'un PC</h1>
+    </center>
+
+    <embed src="Description_PC.pdf" type="application/pdf" width="100%" height="600px" />
+
+    <br><br><br><br>
+    <center>
+        <video controls autoplay="autoplay" width="600" height="400" loop>
+            <source src="video/amar.mp4" type="video/mp4" />
+            <track kind='subtitles' src='translate/Nouveau.vtt' srclang='en' label='l7assaniye' default>
+        </video>
+    </center>
+    <br><br>
+    26/02/2022
+
+</body>
+
+</html>
